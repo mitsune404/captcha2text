@@ -61,7 +61,7 @@ if (!isMainThread) {
       });
 
       const captchaText = response.choices[0].message.content;
-      console.log(apiKey);
+
       parentPort.postMessage(captchaText);
     } catch (error) {
       parentPort.postMessage({ error: error.message });

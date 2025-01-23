@@ -42,7 +42,7 @@ if (!isMainThread) {
           content: [
             {
               type: "text",
-              text: "Send the text in this captcha image.",
+              text: "Send only the text from this image.",
             },
             {
               type: "image_url",
